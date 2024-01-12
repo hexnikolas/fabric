@@ -528,9 +528,7 @@ below provide a guided tour of what happens when you issue the command of
 
 - Once the organization crypto material has been generated, the `network.sh` can bring up the nodes of the network. The
   script uses the ``docker-compose-test-net.yaml`` file in the `docker` folder
-  to create the peer and orderer nodes. The `docker` folder also contains the
-  ``docker-compose-e2e.yaml`` file that brings up the nodes of the network
-  alongside three Fabric CAs.
+  to create the peer and orderer nodes.
 
 - If you use the `createChannel` subcommand, `./network.sh` runs the
   `createChannel.sh` script in the `scripts` folder to create a channel
